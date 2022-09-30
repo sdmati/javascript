@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    
+    <script>
+
+            document.write("<b>siema</b>" + "<br><hr>" + "siema");
+            // sluzy do wyswietlania napisow na ekranie
+
+            alert("siema ");
+            //takie okienko pop up
+
+
+
+            var ch = confirm("Akceptujesz coookies?");
+
+            document.write("<br/>Użytnik: ");
+            if(ch == true){
+                document.write("<br/>Zaakceptowales regulamin")
+            }
+            else{
+                document.write("<br/>Nie zaakceptowales")
+            } 
+            // Funkcja confirm decyduje true czy false, prostsza wersja nizej */
+            
+            // document.write("Uzytnik wybral: " + confirm("Akceptujesz regulamin?"))
+
+            var wiek;
+            wiek = prompt("W jakim jestes wieku: ");
+            document.write("<br/><br/>Uzytkownik ma " + wiek + " lat")
+
+            //prompt okienko dialogowe gdzie wpisujemy tekst i mozemy uzyc tego jako zmienna
+    </script>
+
+</body>
+</html>
