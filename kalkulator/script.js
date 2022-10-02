@@ -6,7 +6,9 @@ function suma(){
     a = parseFloat(a);
     b = parseFloat(b);
     
-    alert(a+b);
+    var wynik = document.getElementById("wynik")
+    wynik.value = a + b
+    
 }
 
 
@@ -17,7 +19,9 @@ function roznica(){
 
     a = parseFloat(a);
     b = parseFloat(b);
-    alert(a-b);
+    
+    var wynik = document.getElementById("wynik")
+    wynik.value = a - b
 }
 
 
@@ -28,7 +32,9 @@ function iloczyn(){
 
     a = parseFloat(a);
     b = parseFloat(b);
-    alert(a*b);
+    
+    var wynik = document.getElementById("wynik")
+    wynik.value = a * b
 }
 
 
@@ -39,5 +45,7 @@ function iloraz(){
 
     a = parseFloat(a);
     b = parseFloat(b);
-    alert(a/b);
+    
+    var wynik = document.getElementById("wynik")
+    wynik.value = a / b
 }
