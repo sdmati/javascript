@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+#poletrojkata{
+    height: 10px;
+    width: 100px; 
+    margin-left: 10px;
+}
+
+.podstawa::placeholder{
+    text-align: center;
+    width: auto;
+}
+
+.wysokosc::placeholder{
+    text-align: center;
+}
+
+.wynik::placeholder{
+    text-align: center;
+}
+
+
